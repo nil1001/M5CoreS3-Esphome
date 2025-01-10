@@ -194,7 +194,7 @@ image:
     resize: 320x240
     type: RGB24
     use_transparency: true
-  - file: file: https://github.com/nil1001/M5CoreS3-Esphome/blob/main/images/error-no-wifi.png
+  - file: https://github.com/nil1001/M5CoreS3-Esphome/blob/main/images/error-no-wifi.png
     id: error_no_wifi
     resize: 320x240
     type: RGB24
