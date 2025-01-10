@@ -59,7 +59,7 @@ psram:
 external_components:
   - source:
       type: git
-      url: https://github.com/m5stack/M5CoreS3-Esphome
+      url: https://github.com/nil1001/M5CoreS3-Esphome
     components: [ board_m5cores3, m5cores3_audio, m5cores3_display ]
     refresh: 0s
 
@@ -70,7 +70,7 @@ logger:
 api:
   encryption:
     # Replace the key by your API key
-    key: "<YOUR_API_KEY>"
+    key: "gNdUR48kmXSneml9w3dowZwcRAdeOgfXwql/bNJuNu4="
   on_client_connected:
     - script.execute: draw_display
   on_client_disconnected:
@@ -79,7 +79,7 @@ api:
 ota:
   - platform: esphome
     # Replace the key by your OTA key
-    password: "<YOUR_OTA_KEY>"
+    password: "c92b7ab641a6514c917918644fbea4d1"
 
 wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
